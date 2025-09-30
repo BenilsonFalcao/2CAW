@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>TechTree - Carrinho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+
+<body>
+  <header>
+    <h1>Carrinho de Compras</h1>
+    <nav>
+      <a href="index.html">Produtos</a> |
+      <a href="carrinho.html">Carrinho</a> |
+      <a href="finalizar.html">Finalizar Compra</a>
+    </nav>
+  </header>
+
+ <main>
+  <h2>Itens no Carrinho</h2>
+  <ul id="lista-carrinho"></ul>
+  <p><strong>Total:</strong> R$ <span id="total">0.00</span></p>
+  <a href="finalizar.html"><button>Finalizar Compra</button></a>
+</main>
+
+<script src="script.js"></script>
+<script>
+  exibirCarrinho(); // carrega os itens ao abrir a página
+</script>
+
+</body>
+</html>

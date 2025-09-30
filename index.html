@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>TechTree - Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+
+<body>
+  <header>
+    <h1>Loja de Eletrônicos TechTree</h1>
+    <nav>
+      <a href="index.html">Produtos</a> |
+      <a href="carrinho.html">Carrinho</a> |
+      <a href="finalizar.html">Finalizar Compra</a>
+    </nav>
+  </header>
+
+  <main class="produtos">
+    <h2>Produtos em Destaque</h2>
+
+    <section class="produto">
+      <h3>Smartphone X200</h3>
+      <table>
+        <tr><td>Marca:</td><td>TechTree</td></tr>
+        <tr><td>Memória:</td><td>128GB</td></tr>
+        <tr><td>RAM:</td><td>6GB</td></tr>
+        <tr><td>Preço:</td><td>R$ 1.899,00</td></tr>
+      </table>
+      <button onclick="adicionarAoCarrinho('Smartphone X200', 1.899,00)">Adicionar ao Carrinho</button>
+
+    </section>
+
+    <section class="produto">
+      <h3>Notebook Pro 15</h3>
+      <table>
+        <tr><td>Marca:</td><td>TechTree</td></tr>
+        <tr><td>Processador:</td><td>Intel i7</td></tr>
+        <tr><td>Armazenamento:</td><td>512GB SSD</td></tr>
+        <tr><td>Preço:</td><td>R$ 4.299,00</td></tr>
+      </table>
+      <button onclick="adicionarAoCarrinho('Notebook Pro', 4.299,00)">Adicionar ao Carrinho</button>
+
+    </section>
+
+    <section class="produto">
+      <h3>Smart TV 50"</h3>
+      <table>
+        <tr><td>Marca:</td><td>TechTree</td></tr>
+        <tr><td>Resolução:</td><td>4K Ultra HD</td></tr>
+        <tr><td>Sistema:</td><td>Android TV</td></tr>
+        <tr><td>Preço:</td><td>R$ 2.799,00</td></tr>
+      </table>
+      <button onclick="adicionarAoCarrinho('Smart TV 50"', 2.799,00)">Adicionar ao Carrinho</button>
+
+    </section>
+
+    <section class="produto">
+      <h3>Headset Gamer</h3>
+      <table>
+        <tr><td>Marca:</td><td>TechTree</td></tr>
+        <tr><td>Microfone:</td><td>Integrado</td></tr>
+        <tr><td>Conexão:</td><td>USB</td></tr>
+        <tr><td>Preço:</td><td>R$ 399,00</td></tr>
+      </table>
+      <button onclick="adicionarAoCarrinho('Headset Gamer', 399,00)">Adicionar ao Carrinho</button>
+
+    </section>
+
+  </main>
+</body>
+</html>
